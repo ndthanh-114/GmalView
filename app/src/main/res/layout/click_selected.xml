@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/oval_background"
+        android:foreground="@drawable/check"
+        android:id="@+id/imgCheck"/>
+    <TextView
+        android:layout_toRightOf="@+id/imgCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/msgClick"
+        android:text="Touch a sender image to select
+        that conversation"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/X"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic_launcher_background"
+        android:foreground="@drawable/close" />
+
+</RelativeLayout>
